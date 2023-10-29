@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+.container{
+    width:  100%;
+    height: 100vh;
+    background-image:url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+
+ .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+ }
+ .col{
+    flex-basis: 50%;
+ }
+ h1{
+    color:beige;
+    font-size: 100px;
+ }
+p{
+    color:whitesmoke;
+    font-size: 45px;
+    line-height: 15 px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.costum-button{
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+    
+}
+
+
+a href{
+    font-size: small;
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+
+h5{
+    color:aliceblue;
+    text-shadow: 0 0 5px #999;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: beige;
+  }
+
+
